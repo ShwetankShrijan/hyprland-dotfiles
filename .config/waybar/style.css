@@ -1,0 +1,93 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #101010;
+    color: #e9ecef;
+    border-radius: 0px;
+    border: 1px solid #e9ecef;
+}
+
+#mpris {
+    color: #e9ecef;
+}
+
+#pulseaudio,
+#backlight,
+#battery,
+#memory,
+#clock {
+    color: #e9ecef;
+    padding: 0 12px;
+}
+
+#pulseaudio,
+#backlight,
+#battery,
+#memory,
+#clock {
+    border-right: 1px solid rgba(233, 236, 239, 0.35);
+}
+
+#clock {
+    padding: 0 14px;
+}
+
+#pulseaudio.muted {
+    color: rgba(233, 236, 239, 0.5);
+}
+
+#battery.warning,
+#battery.critical {
+    color: #e9ecef;
+}
+
+tooltip {
+    background: #212529;
+    color: #e9ecef;
+    border: 1px solid #e9ecef;
+    border-radius: 0;
+}
+
+#workspaces {
+    color: #e9ecef;
+    padding: 0 8px;
+}
+
+#workspaces button {
+    color: #e9ecef;
+    background: transparent;
+    border: none;
+    padding: 0 6px;
+}
+
+#workspaces button.active {
+    color: #e9ecef;
+}
+
+#window {
+    color: #e9ecef;
+    padding-left: 6px;
+}
+
+#tray {
+    background: transparent;
+    border: none;
+    padding: 0 6px;
+    margin: 0;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .active {
+    -gtk-icon-effect: none;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}

@@ -1,0 +1,4 @@
+[server]
+style = "/home/orb/.config/swayosd/style.css"
+top_margin = 0.50
+show_percentage = true

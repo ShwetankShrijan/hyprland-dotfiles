@@ -1,0 +1,87 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "height": 32,
+    "margin": "5px 8px 0px 8px",
+
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+
+    "modules-center": [
+        "mpris"
+    ],
+
+    "modules-right": [
+        //"pulseaudio",
+        //"backlight",
+        "memory",
+        "battery",
+        "clock",
+        "tray"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "disable-scroll": true
+    },
+
+    "hyprland/window": {
+        "format": "|  {}",
+        "max-length": 50,
+        "separate-outputs": true
+    },
+
+    "mpris": {
+        "format": "{artist} - {title}",
+        "format-paused": "{artist} - {title}",
+        "format-stopped": "",
+        "max-length": 50,
+        "on-click": "playerctl play-pause",
+        "on-click-middle": "playerctl next",
+        "on-click-right": "playerctl previous",
+        "tooltip-format": "{player}\n{artist} - {title}"
+    },
+
+    "pulseaudio": {
+        "format": "VOL : {volume}%",
+        "format-muted": "VOL : MUTED",
+        "on-click": "pavucontrol"
+    },
+
+    "backlight": {
+        "format": "BRI : {percent}%",
+        "tooltip-format": "Brightness : {percent}%"
+    },
+
+    "battery": {
+        "bat": "BAT1",
+        "format": "BAT : {capacity}%",
+        "format-charging": "BAT : {capacity}% CHG",
+        "format-full": "BAT : {capacity}%",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "tooltip-format": "Battery : {capacity}%\n{time}"
+    },
+
+    "memory": {
+        "format": "RAM : {percentage}%",
+        "tooltip-format": "RAM : {used} / {total}"
+    },
+
+    "clock": {
+        "format": "TIME : {:%I:%M %p}",
+        "tooltip-format": "{:%A, %d %B %Y}"
+    },
+
+    "tray": {
+        "icon-size": 15,
+        "spacing": 8
+    }
+}
+

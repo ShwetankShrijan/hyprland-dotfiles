@@ -1,0 +1,68 @@
+# ─────────────────────────────────────
+# Ghostty Grayscale
+# ─────────────────────────────────────
+
+# Window
+background-opacity = 1
+background = #101010
+foreground = #E9ECEF
+
+# Cursor
+cursor-color = #F8F9FA
+cursor-text = #212529
+cursor-style = block
+cursor-style-blink = false
+
+# Selection
+selection-background = #495057
+selection-foreground = #F8F9FA
+
+# Palette
+palette = 0=#212529
+palette = 1=#6C757D
+palette = 2=#ADB5BD
+palette = 3=#CED4DA
+palette = 4=#495057
+palette = 5=#6C757D
+palette = 6=#DEE2E6
+palette = 7=#E9ECEF
+
+palette = 8=#343A40
+palette = 9=#ADB5BD
+palette = 10=#CED4DA
+palette = 11=#DEE2E6
+palette = 12=#6C757D
+palette = 13=#ADB5BD
+palette = 14=#E9ECEF
+palette = 15=#F8F9FA
+
+# Spacing
+window-padding-x = 14
+window-padding-y = 12
+
+# Font
+font-family = JetBrains Mono
+font-size = 12
+
+# Scrollback
+scrollback-limit = 10000
+
+# Mouse
+mouse-hide-while-typing = true
+
+# Shell integration
+shell-integration = detect
+
+# To stop the close warning on Hyprland
+confirm-close-surface = false
+
+# GTK
+#gtk-tabs-location = bottom
+#gtk-toolbar-style = flat
+#gtk-custom-css = ~/.config/ghostty/tabs.css
+
+# Other
+#background-blur = true
+#maximize = true
+#window-width = 1890
+#window-height = 1170

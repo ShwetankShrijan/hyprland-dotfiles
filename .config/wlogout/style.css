@@ -1,0 +1,52 @@
+window {
+    background-color: rgba(10, 10, 10, 0.95);
+    border: 0px solid #ffffff;
+}
+
+button {
+    border-radius: 0;
+    border-color: #e9ecef;
+    text-decoration-color: #e9ecef;
+    color: #e9ecef;
+    background-color: #101010;
+    border-style: solid;
+    border-width: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+button:focus,
+button:active,
+button:hover {
+    background-color: #202020;
+    color: #e9ecef;
+}
+
+
+
+
+
+#lock {
+    background-image: url("/home/orb/.config/wlogout/icons/lock.png");
+}
+
+#logout {
+    background-image: url("/home/orb/.config/wlogout/icons/logout.png");
+}
+
+#suspend {
+    background-image: url("/home/orb/.config/wlogout/icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("/home/orb/.config/wlogout/icons/hibernate.png");
+}
+
+#shutdown {
+    background-image: url("/home/orb/.config/wlogout/icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("/home/orb/.config/wlogout/icons/reboot.png");
+}

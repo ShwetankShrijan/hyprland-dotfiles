@@ -1,0 +1,48 @@
+# ~/.config/mako/config
+
+# ──────────────── Appearance ────────────────
+
+background-color=#101010
+text-color=#E9ECEF
+
+border-color=#E9ECEF
+border-size=2
+border-radius=0
+
+font=JetBrains Mono 11
+
+# ──────────────── Size / Spacing ────────────────
+
+width=380
+height=110
+
+padding=14
+margin=12
+
+# ──────────────── Position ────────────────
+
+anchor=top-right
+
+# ──────────────── Icons ────────────────
+
+max-icon-size=48
+
+# ──────────────── Behavior ────────────────
+
+default-timeout=5000
+ignore-timeout=0
+
+sort=-time
+
+# ──────────────── Urgency ────────────────
+
+[urgency=low]
+border-color=#495057
+default-timeout=3000
+
+[urgency=normal]
+border-color=#6C757D
+
+[urgency=high]
+border-color=#E9ECEF
+default-timeout=0
